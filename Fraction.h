@@ -16,6 +16,10 @@
 
 
 class Fraction {
+    
+public:
+    Fraction(int I_num, int I_den);
+    
 private:
     int den;
     int num;

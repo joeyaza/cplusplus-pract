@@ -11,15 +11,12 @@
  * Created on 12 January 2018, 17:01
  */
 
-#include <cstdlib>
+#include "Fraction.h"
 
-using namespace std;
+Fraction::Fraction(int I_num, int I_den)
+{
 
-/*
- * 
- */
-int main(int argc, char** argv) {
-
-    return 0;
+    num = I_num;
+    den = I_den;
+    
 }
-
